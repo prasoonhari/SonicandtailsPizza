@@ -1,0 +1,28 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg -a chan squarrow.mb squarrow_anim.egg"
+}
+<Table> {
+  <Bundle> squarrow {
+    <Table> "<skeleton>" {
+      <Table> pCube2 {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 30 }
+          <Char*> order { sphrt }
+          <S$Anim> y {
+            <V> {
+              0 -0.0291545 -0.110787 -0.236152 -0.396501 -0.58309
+              -0.787172 -1 -1.21283 -1.41691 -1.6035 -1.76385 -1.88921
+              -1.97085 -2 -1.97452 -1.90281 -1.792 -1.64919 -1.48148
+              -1.296 -1.09985 -0.900148 -0.704 -0.518519 -0.350815
+              -0.208 -0.0971852 -0.0254815 0
+            }
+          }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}
